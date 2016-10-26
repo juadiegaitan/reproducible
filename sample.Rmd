@@ -31,7 +31,7 @@ git commit -am "some edits"; git push -u origin master
 
 # Resources 
 
-+ [Slides]()
++ [Slides](https://docs.google.com/presentation/d/10FFODfJMV7PEcKtME4eBwXOGMPU6HBr_Yh2WjR04rhM/edit?usp=sharing)
 + [This HTML Vignette on GitHub](https://goo.gl/8KqnVm)
 + [GitHub Repository](https://github.com/tgirke/reproducible)
 
