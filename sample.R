@@ -64,6 +64,10 @@ dev.off()
 ## ----install_package, eval=FALSE-----------------------------------------
 ## install.packages("mypackage_1.0.tar.gz", repos=NULL)
 
+## ----install_package_github, eval=FALSE----------------------------------
+## source("http://bioconductor.org/biocLite.R")
+## biocLite("tgirke/reproducible", build_vignettes=FALSE, dependencies=FALSE)
+
 ## ----package_skeleton2, eval=FALSE---------------------------------------
 ## package.skeleton(name="mypackage", code_files=c("script1.R"), namespace=TRUE)
 
