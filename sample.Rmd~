@@ -31,7 +31,7 @@ git commit -am "some edits"; git push -u origin master
 
 # Resources 
 
-+ [Slides]()
++ [Slides](https://docs.google.com/presentation/d/10FFODfJMV7PEcKtME4eBwXOGMPU6HBr_Yh2WjR04rhM/edit?usp=sharing)
 + [This HTML Vignette on GitHub](https://goo.gl/8KqnVm)
 + [GitHub Repository](https://github.com/tgirke/reproducible)
 
@@ -105,6 +105,7 @@ bibliography: bibtex.bib
 An R Markdown script can be evaluated and rendered with the following `render` command or by pressing the `knit` button in RStudio.
 The `output_format` argument defines the format of the output (_e.g._ `html_document`). The setting `output_format="all"` will generate 
 all supported output formats. Alternatively, one can specify several output formats in the metadata section as shown in the above example.
+
 
 ```{r render_rmarkdown, eval=FALSE, message=FALSE}
 rmarkdown::render("sample.Rmd", clean=TRUE, output_format=c("pdf_document", "html_document"))
