@@ -28,6 +28,11 @@ git commit -am "some edits"; git push -u origin master
     css: style.css
 -->
 
+# Resources 
+
++ [Slides]()
++ [This HTML Vignette on GitHub](https://goo.gl/8KqnVm)
++ [GitHub Repository](https://github.com/tgirke/reproducible)
 
 # R Markdown
 
