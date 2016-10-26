@@ -1,4 +1,3 @@
-addfadsj
 ## ----install_rmarkdown, eval=FALSE---------------------------------------
 ## install.packages("rmarkdown")
 
