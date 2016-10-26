@@ -19,7 +19,7 @@ bibliography: bibtex.bib
 
 <!---
 - Compile from command-line
-Rscript -e "rmarkdown::render('sample.Rmd', output_format=c('pdf_document', 'html_document'), clean=TRUE)"; Rscript -e "rmarkdown::knit('sample.Rmd', tangle=TRUE)"
+Rscript -e "rmarkdown::render('sample.Rmd', output_format=c('pdf_document', 'html_document'), clean=TRUE)"; Rscript -e "knitr::knit('sample.Rmd', tangle=TRUE)"
 
 - Commit to github
 git add -A :/ 
